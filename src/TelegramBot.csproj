@@ -4,13 +4,17 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>TelegramBot</RootNamespace>
+    <UserSecretsId>f7d9ed01-888a-49b5-8619-15133176b1d0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.3" />
     <PackageReference Include="Telegram.Bot" Version="15.5.1" />
+    <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="0.1.3" />
   </ItemGroup>
 
   <ItemGroup>
